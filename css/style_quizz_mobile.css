@@ -1,0 +1,166 @@
+/*************************    STYLE COMMUN ********************************/
+body {
+    font-family: 'Bangers', cursive;
+    background-color: #ebe9e9f5;
+    background-image: url(https://www.transparenttextures.com/patterns/food.png);
+    letter-spacing: 0.2em;
+}
+
+.bigBox {
+    background-color: #FFFF;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 50px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-shadow: inset 0px 0px 20px 0px grey;
+}
+
+header {
+
+    background-image:linear-gradient(to bottom, #44A5FF, #6cb5fa);
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 25px;
+    box-shadow:  10px 10px 20px 0px gray;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+    letter-spacing: 0.8em;
+}
+/* boutons cliquables */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+footer p {
+    font-size: 0.7em;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2sem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+#bouton_formulaire{
+    display: inline;
+    position: relative;
+    border-radius: 25px;
+    text-align: center;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+#button_submit{
+    border-radius: 25%;
+    background-color: #6cb5fa; /* La couleur de fond */
+    color: white; /* La couleur du texte */
+    font-size: 2em;
+    box-shadow: inset 0 0 1em #6cb5fa, 0 0 1em #6cb5fa;
+}
+
+.question_formulaire{
+    border: 1px solid gray;
+    border-radius: 25px;
+    box-shadow:  10px 10px 20px 0px gray;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+/******************************* Responsive mobile! ******************************/
+@media screen and (max-width: 721px) {
+
+    nav {           /* NAVBAR commune */
+        font-size: 1.5em;
+    }
+
+    #alt-titreHide{         /* pour cacher le titre */
+        background-color: #6cb5fa;
+        border-radius: 15px;
+    }
+
+    #menu-deroulant, #menu-deroulant ul{
+        padding:0;
+        list-style:none;
+        text-align:center;
+    }
+
+    #menu-deroulant li{
+        display:inline-block;
+        position:relative;
+        border-radius: 10px;
+    }
+
+    #menu-deroulant ul li{
+        display: inherit;
+        border-radius: 0;
+        background-color: grey;
+    }
+
+    #menu-deroulant ul li:first-child {
+        border-radius: 10px 10px 0 0;
+    }
+
+    #menu-deroulant ul li:last-child {
+        border-radius: 0 0 10px 10px;
+    }
+
+    #menu-deroulant ul{
+        position: absolute;
+        z-index: 1000;
+        max-height: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        -moz-transition: .8s all .3s;
+        -webkit-transition: .8s all .3s;
+        transition: .8s all .3s;
+        letter-spacing: 5px;
+
+    }
+    #menu-deroulant li:hover ul{
+        max-height: 15em;
+    }
+
+    #menu-deroulant a{
+        text-decoration:none;
+        display:block;
+        padding:8px 32px;
+        color: black;
+        letter-spacing: 0.7em;
+    }
+
+    #menu-deroulant ul a{
+        padding:8px 0;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        margin-left: 2%;
+        margin-bottom: 0px;
+    }
+    li{
+        box-shadow: inset 0 0 1em #6cb5fa, 0 0 1em #6cb5fa;
+    }
+
+
+
+}
