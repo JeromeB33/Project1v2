@@ -1,0 +1,107 @@
+@media screen and (min-width: 722px){
+header {
+    font-size: 2em;
+}
+/* On positionne le cadre pour scroll a l'interieur*/
+.bigBox {    
+    margin: 0;
+    position: fixed;
+    top: 30px;
+    bottom: 100px;
+    left: 50px;
+    right: 50px;
+    overflow-y: scroll;
+}
+/* Style de la scrollbar */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+display: none;
+}
+
+::-webkit-scrollbar-thumb {
+background: grey
+}
+/*on positionne le footer */
+footer {
+    position: fixed;
+    bottom: 2px;
+    right: 10%;
+    left: 10%;
+}
+/* on met en place une grid */ 
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+    grid-template-rows: 30% 10% 10% 10% 10% 30% ;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin-top: 60px;
+}
+
+#histoire {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+#compétences {
+    grid-row: 1 / span 2;
+    grid-column: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+#photoContainer {
+    grid-row: 2 / span 3;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#quizz {
+    grid-row: 4 / span 2;
+    grid-column: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+#articles {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    align-self: center;
+    justify-self: center;
+}
+
+#contact {
+    grid-row: 6;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    margin-top: 20%;
+}
+/* le style des boutons*/ 
+#histoire, #compétences, #articles, #quizz, #contact {
+    background-image:linear-gradient(to bottom, #94c8f8, #b1d5f7);
+    border-radius: 15px;
+    box-shadow:  10px 10px 20px 0px gray;
+    text-align: center;
+}
+
+#photo {
+    height:60% ;
+    width:60% ;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 25px;
+    box-shadow:  10px 10px 20px 0px gray;
+}
+h2 {
+    font-size: 2.5em;
+}
+}
+
