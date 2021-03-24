@@ -1,0 +1,47 @@
+body {
+    font-family: 'Bangers', cursive;
+    background-color: #ebe9e9f5;
+    background-image: url(https://www.transparenttextures.com/patterns/food.png);
+    letter-spacing: 0.2em;
+}
+/* On crée une boite contenant tous les conteneur de la page */ 
+.bigBox {
+    background-color: #FFFF;
+
+    border-radius: 50px;
+
+    box-shadow: inset 0px 0px 20px 0px grey;
+}
+
+header {
+    
+    background-image:linear-gradient(to bottom, #44A5FF, #6cb5fa);
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 25px;
+    box-shadow:  10px 10px 20px 0px gray;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+    letter-spacing: 0.8em;
+}   
+/* boutons cliquables */ 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    bottom: 2px;
+    text-align: center;
+}
+/* on rend le texte du footer plus petit */ 
+footer p {
+    font-size: 0.7em;
+}
+/* on change l'écriture des paragraphes */ 
+h2 {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 0;
+}
