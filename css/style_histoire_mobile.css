@@ -4,6 +4,9 @@ body {  /**************** doit etre commun ***************/
     background-image: url(https://www.transparenttextures.com/patterns/food.png);
     letter-spacing: 0.2em;
 }
+#titre_navbar{
+    font-size: 0.9em;
+}
 
 #grandContenaire {  /* placement du grand div */
     background-color: #FFFF;

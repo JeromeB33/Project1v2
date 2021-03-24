@@ -22,7 +22,7 @@
             <li><a href="#" id="alt-titreHide">Histoire</a> <!-- id pour cacher le tire -->
                 <ul>
                     <li><a href="../index.php">Accueil</a></li>
-                    <li><a href="compétences.php">Compétences</a></li>
+                    <li><a id="titre_navbar" href="compétences.php">Compétences</a></li>
                     <li><a href="articles.php">Article</a></li>
                     <li><a href="quizz.php">Quizz</a></li>
                     <li><a href="contact.php">Contact</a></li>
