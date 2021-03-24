@@ -1,0 +1,165 @@
+@media screen and (min-width: 722px){
+    /* on met en place la nav bar latérale*/
+    #menu-deroulant{
+      position: fixed;
+      top: 30px;
+      box-shadow: inset 0px 0px 20px 0px grey;
+      background-color: #6cb5fa;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      top: 30px;
+      bottom: 100px;
+      left: 50px;
+      margin: 0;
+      
+  }
+  
+  .bigBox {    
+      margin: 0;
+      position: fixed;
+      top: 30px;
+      bottom: 100px;
+      left: 50px;
+      right: 50px;
+      overflow-y: scroll;
+      display: flex;
+  }
+  
+  footer {
+      position: fixed;
+      bottom: 2px;
+      right: 10%;
+      left: 10%;
+  }
+  #alt-titreHide{
+      display: none;
+  }
+  nav {
+      display: flex;
+      align-self: center;
+      background-color: #6cb5fa;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0%;
+      margin-right: 3%;
+      width: 20%;
+      font-size: 220%;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      text-align: center;
+  }
+  
+  #menu-deroulant li {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 70%;
+  }
+  
+  ul {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 100%;
+  }
+  
+  li {
+      list-style: none;
+  }
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+      width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+      display: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background: grey
+  }
+    /* on place le titre*/
+    .contact-container{
+      margin-left: 10%;
+
+
+    }
+    header {
+        align-self: flex-end;
+        width: 70%;
+        margin-bottom: 70px;
+    }
+    #contact-comp{
+      font-size: 0.7em;
+  }
+                             /*/*/*/*     /* Au tour du formulaire*/     */*/*/*/
+
+    main {
+        display: flex;
+    }
+    form {
+        /* Uniquement centrer le formulaire sur la page */
+        margin: 0 auto;
+        width: 80%;
+        /* Encadré pour voir les limites du formulaire */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        margin-top: 5%;
+        margin-right: 10%;  
+        display: flex;
+        flex-direction: column;
+      }
+      
+      form div + div {
+        margin-top: 1em;
+      }
+      
+      label {
+        /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+        margin-bottom: 3%;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+      }
+      
+      input, textarea {
+        font: 1em sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        margin-bottom: 3%;
+      }
+      
+      input:focus, textarea:focus {
+        /* Pour souligner légèrement les éléments actifs */
+        border-color: #000;
+      }
+      
+      textarea {
+        /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+        vertical-align: top;
+      
+        /* Pour donner assez de place pour écrire du texte */
+        height: 8em;
+      }
+       .submit {
+           align-self: center;
+       }
+      
+      button {
+        border-radius: 25%;
+        background-color: #6cb5fa; /* La couleur de fond /
+        color: white; / La couleur du texte */
+        font-size: 1.6em;
+        box-shadow: inset 0 0 1em #6cb5fa, 0 0 1em #6cb5fa;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+   
+      }
+    }
+
+
+
+  
