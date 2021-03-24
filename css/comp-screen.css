@@ -1,0 +1,119 @@
+@media screen and (min-width: 722px){
+    /* on met en place la nav bar latérale*/
+    #menu-deroulant{
+        position: fixed;
+        top: 30px;
+        box-shadow: inset 0px 0px 20px 0px grey;
+        background-color: #6cb5fa;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        top: 30px;
+        bottom: 100px;
+        left: 50px;
+        margin: 0;
+        
+    }
+
+    .bigBox {    
+        margin: 0;
+        position: fixed;
+        top: 30px;
+        bottom: 100px;
+        left: 50px;
+        right: 50px;
+        overflow-y: scroll;
+        display: flex;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 2px;
+        right: 10%;
+        left: 10%;
+    }
+    #alt-titreHide{
+        display: none;
+    }
+    nav {
+        box-shadow:  10px 10px 20px 0px gray;
+        align-self: center;
+        background-color: #6cb5fa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 3%;
+        width: 20%;
+        font-size: 220%;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        text-align: center;
+    }
+
+    #menu-deroulant li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70%;
+    }
+
+    ul {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 100%;
+    }
+
+    li {
+        list-style: none;
+    }
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: grey
+    }
+        
+    /* on place le titre*/
+    
+    header {
+        align-self: flex-end;
+        width: 70%;
+        margin-bottom: 70px;
+    }
+    /* le style des box compétences */
+    
+    .competences-boxes section {
+        width: 40%;
+        border: 1px solid gray;
+        border-radius: 25px;
+        box-shadow:  10px 10px 20px 0px gray;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    /* on place les éléments dans la box competence*/
+
+    .competences-container{
+        display: flex;
+        flex-direction:column ;
+        width: 100%;  
+        font-size: 1.1em;
+        margin-left: 5%;
+    }
+    .competences-container li {
+        list-style:square;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .competences-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+   
+    }

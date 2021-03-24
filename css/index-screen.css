@@ -2,6 +2,37 @@
 header {
     font-size: 2em;
 }
+
+/* On positionne le cadre pour scroll a l'interieur*/
+.bigBox {    
+    margin: 0;
+    position: fixed;
+    top: 30px;
+    bottom: 100px;
+    left: 50px;
+    right: 50px;
+    overflow-y: scroll;
+}
+/* Style de la scrollbar */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+display: none;
+}
+
+::-webkit-scrollbar-thumb {
+background: grey
+}
+/*on positionne le footer */
+footer {
+    position: fixed;
+    bottom: 2px;
+    right: 10%;
+    left: 10%;
+}
+
 /* on met en place une grid */ 
 .container {
     display: grid;
