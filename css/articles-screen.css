@@ -1,0 +1,125 @@
+@media screen and (min-width: 722px){
+/* on met en place la nav bar latérale*/
+#menu-deroulant{
+    position: fixed;
+    top: 30px;
+    box-shadow: inset 0px 0px 20px 0px grey;
+    background-color: #6cb5fa;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 30px;
+    bottom: 100px;
+    left: 50px;
+    margin: 0;
+    
+}
+
+.bigBox {    
+    margin: 0;
+    position: fixed;
+    top: 30px;
+    bottom: 100px;
+    left: 50px;
+    right: 50px;
+    overflow-y: scroll;
+    display: flex;
+}
+
+footer {
+    position: fixed;
+    bottom: 2px;
+    right: 10%;
+    left: 10%;
+}
+#alt-titreHide{
+    display: none;
+}
+nav {
+    display: flex;
+    align-self: center;
+    background-color: #6cb5fa;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 3%;
+    width: 20%;
+    font-size: 220%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+}
+
+#menu-deroulant li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+}
+
+ul {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100%;
+}
+
+li {
+    list-style: none;
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey
+}
+/* on place le titre*/
+
+header {
+    align-self: flex-end;
+    width: 70%;
+    margin-bottom: 70px;
+}
+/* au tour des articles*/
+
+
+button {
+    border: 1px solid gray;
+    border-radius: 25px;
+    box-shadow:  10px 10px 20px 0px gray;
+    margin-bottom: 5%;
+    margin-right: 9%;
+
+    padding-right: 2%;
+    background-color: white;
+    width: 90%;
+    font-family: 'Bangers', cursive;
+
+}
+/* on place les éléments dans la box article*/
+h2 {
+    margin-left: 2%;
+    margin-bottom: 0px;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+ 
+}
+.art-info {
+    margin-top: 2%;
+    margin-left: 10%;
+    text-align: left;
+}
+.art-contenu {
+    font-size: 1.5em;
+    margin-left: 5%;
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+#art-comp{
+    font-size: 0.7em;
+}
+}
