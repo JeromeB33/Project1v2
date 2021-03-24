@@ -20,7 +20,7 @@
             <ul id="menu-deroulant">
                 <li><a href="#" id="alt-titreHide">Contact</a>
                     <ul>
-                        <li><a href="index.php">Accueil</a></li>
+                        <li><a href="../index.php">Accueil</a></li>
                         <li><a href="histoire.php">Histoire</a></li>
                         <li><a id="contact-comp" href="compétences.php">Compétences</a></li>
                         <li><a id="articles" href="articles.php">Articles</a></li>

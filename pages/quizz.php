@@ -9,8 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="screen" href="css/style_quizz_mobile.css" type="text/css" />
-    <link rel="stylesheet" media="screen" href="css/style_quizz_print.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="../css/style_quizz_mobile.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="../css/style_quizz_print.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="../css/global.css" type="text/css" />
 </head>
 
 <body>
@@ -20,7 +21,7 @@
         <ul id="menu-deroulant">
             <li><a href="#" id="alt-titreHide">Quizz</a>
                 <ul>
-                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="../index.php">Accueil</a></li>
                     <li><a href="histoire.php">Histoire</a></li>
                     <li><a href="compétences.php">Compétences</a></li>
                     <li><a href="articles.php">Arcticles</a></li>
