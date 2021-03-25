@@ -18,6 +18,9 @@
         flex-direction:column ;
         width: 100%
     }
+    #titre_navbar{
+        font-size: 0.9em;
+    }
     nav {
         box-shadow:  10px 10px 20px 0px gray;
         align-self: center;
@@ -43,7 +46,6 @@
     ul {
         padding-left: 20px;
         padding-right: 20px;
-        margin-bottom: 100%;
     }
 
     li {

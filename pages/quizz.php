@@ -23,7 +23,7 @@
                 <ul>
                     <li><a href="../index.php">Accueil</a></li>
                     <li><a href="histoire.php">Histoire</a></li>
-                    <li><a href="compétences.php">Compétences</a></li>
+                    <li><a id="titre_navbar" href="compétences.php">Compétences</a></li>
                     <li><a href="articles.php">Arcticles</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>

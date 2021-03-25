@@ -5,7 +5,9 @@ body {
     background-image: url(https://www.transparenttextures.com/patterns/food.png);
     letter-spacing: 0.2em;
 }
-
+#titre_navbar{
+    font-size: 0.9em;
+}
 .bigBox {
     background-color: #FFFF;
     margin-right: 5%;
