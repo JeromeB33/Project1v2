@@ -41,63 +41,44 @@
             <section>
                 <h2>Informatique</h2>
                     <ul>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
+                        <li>Notion de recherche internet</li>
+                        <li>Record de 25.000 sur slither.io</li>
+                        <li>Maîtrise du bloc note</li>
+                        <li>Utilise un seul doigt sur le clavier</li>
                     </ul>
             
             </section>
             <section>
                 <h2>Éloquence</h2>
                     <ul>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
+                        <li>Parle sans bafouiller</li>
+                        <li>Capable de convaincre avec un regard</li>
+                        <li>Maîtrise language de la rue</li>
+                        <li>Communique avec les animaux</li>
                     </ul>
             
             </section>
             <section>
                 <h2>Physique</h2>
                     <ul>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
+                        <li>Soulève plus de bieres que John Cena</li>
+                        <li>A gagner 7 fois le concours du plus gros mangeur</li>
+                        <li>Peut faire plus de 50 metres a pied sans pause</li>
+                        <li></li>
                     </ul>
             
             </section>
             <section>
-                <h2>Compétences</h2>
+                <h2>Loisirs</h2>
                     <ul>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
+                        <li>Embrouiller sa voisine agée</li>
+                        <li>Dormir apres quelques bières</li>
+                        <li>Le foot et la bière</li>
+                        <li>La bière</li>
                     </ul>
             
             </section>
-            <section>
-                <h2>Compétences</h2>
-                    <ul>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
-                    </ul>
-            
-            </section>
-            <section>
-                <h2>Compétences</h2>
-                    <ul>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
-                        <li>blank</li>
-                    </ul>
-            
-            </section>
+
             
             
             </div>
