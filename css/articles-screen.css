@@ -57,13 +57,16 @@ nav {
 }
 
 ul {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 100%;
+    width: 180px;
 }
 
 li {
     list-style: none;
+    
+
 }
 /* Scrollbar styles */
 ::-webkit-scrollbar {
@@ -93,7 +96,7 @@ button {
     box-shadow:  10px 10px 20px 0px gray;
     margin-bottom: 5%;
     margin-right: 9%;
-
+    margin-left: 5%;
     padding-right: 2%;
     background-color: white;
     width: 90%;
@@ -112,12 +115,14 @@ h2 {
     margin-top: 2%;
     margin-left: 10%;
     text-align: left;
+    
 }
 .art-contenu {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-left: 5%;
     text-align: left;
-    letter-spacing: 0.1em;
+    font-family: 'Indie Flower', cursive;
+    
 }
 #art-comp{
     font-size: 0.7em;

@@ -35,7 +35,7 @@
 
                     <div class="boutons">
                         <h2>Histoire</h2>
-                        <p>Le Lorem Ipsum est simplement du faux</p>
+                        <p>Mon histoire avec un grand H</p>
                     </div>
                 </a>
 
@@ -43,7 +43,7 @@
 
                     <div class="boutons">
                         <h2>Compétences</h2>
-                        <p>Le Lorem Ipsum est simplement du faux</p>
+                        <p>Attention ça va vous boucher un coin</p>
                     </div>
                 </a>
 
@@ -52,7 +52,7 @@
 
                     <div class="boutons">
                         <h2>Articles</h2>
-                        <p>Le Lorem Ipsum est simplement du faux</p>
+                        <p> Tout est vraiment vrai ! </p>
                     </div>
                 </a>
 
@@ -60,7 +60,7 @@
                 <a href="./pages/quizz.php" id="quizz" >
                     <div class="boutons">
                         <h2>Quizz</h2>
-                        <p>Le Lorem Ipsum est simplement du faux</p>
+                        <p>As-tu bien retenu mon histoire?</p>
                     </div>
                 </a>
 
@@ -70,7 +70,7 @@
 
                     <div class="boutons">
                         <h2>Contact</h2>
-                        <p>Le Lorem Ipsum est simplement du faux</p>
+                        <p>C'est toujours bien de connaitre ses fans</p>
                     </div>
                 </a>
                 

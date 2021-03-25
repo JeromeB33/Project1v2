@@ -69,7 +69,7 @@
                         <button id="article4" onclick="audioPlay4()">
                             <h2 class='art-titre'>Le Jésus des temps modernes</h2>
                             <p class='art-info'> écrit par Eva porée le 21/03/21</p>
-                            <p class='art-contenu'> Récemment d écédé lors d’un accident, Bernard n’a pas été autorisé à franchir les portes du Paradis car il n’est pas en possession d’un test PCR négatif <br> il a donc réssucité.</p>
+                            <p class='art-contenu'> Récemment décédé lors d’un accident, Eric Hochet n’a pas été autorisé à franchir les portes du Paradis car il n’est pas en possession d’un test PCR négatif <br> il a donc réssucité.</p>
                         </button>
                     </article>
 
