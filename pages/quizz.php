@@ -38,43 +38,65 @@
 
         <main> <!-- Le contenu principal de notre page -->
             <div id="formulaire_quizz"> <!-- formulaire du quizz -->
-                <form method="post" action="form_quizz.php">
+                <form method="post" action="">
+                    <?php
+                    $error = "";
+                    $answered =[];
+                    if(isset($_POST['submit_button']))
+                    {
+                        if(!empty($_POST['answer_1']) && !empty($_POST['answer_2']) && !empty($_POST['answer_3']) && !empty($_POST['answer_4']) && !empty($_POST['answer_5']))
+                        {
+                            echo "ok";
+                        }
+                        else
+                        {
+                            $error= "Tout les champs doivent être renseignés";
+                        }
+                    }
+
+                    ?>
                     <div class="question_formulaire">Quel est le nom de Eric ?<br>
-                        <label for="réponse_formulaire1"></label>
-                        <input type="radio" name="réponse_formulaire1"> Hochet
-                        <input type="radio" name="réponse_formulaire1"> Hockel
-                        <input type="radio" name="réponse_formulaire1"> Hocret
-                        <input type="radio" name="réponse_formulaire1"> Lavinass
+                        <label for="answer_1"></label>
+                        <input type="radio" name="answer_1"> Hochet
+                        <input type="radio" name="answer_1"> Hockel
+                        <input type="radio" name="answer_1"> Hocret
+                        <input type="radio" name="answer_1"> Lavinass
                     </div>
+
                     <div class="question_formulaire">Quel âge a Eric ?<br>
-                        <input type="radio" name="réponse_formulaire2"> 17
-                        <input type="radio" name="réponse_formulaire2"> 30
-                        <input type="radio" name="réponse_formulaire2"> 32
-                        <input type="radio" name="réponse_formulaire2"> 45
+                        <label for="answer_2"></label>
+                        <input type="radio" name="answer_2"> 17
+                        <input type="radio" name="answer_2"> 30
+                        <input type="radio" name="answer_2"> 32
+                        <input type="radio" name="answer_2"> 45
                     </div>
                     <div class="question_formulaire">De quel ville vient-il ?<br>
-                        <input type="radio" name="réponse_formulaire3"> Paris
-                        <input type="radio" name="réponse_formulaire3"> Strasbourg
-                        <input type="radio" name="réponse_formulaire3"> Lovigny
-                        <input type="radio" name="réponse_formulaire3"> Metz
+                        <label for="answer_3"></label>
+                        <input type="radio" name="answer_3"> Paris
+                        <input type="radio" name="answer_3"> Strasbourg
+                        <input type="radio" name="answer_3"> Lovigny
+                        <input type="radio" name="answer_3"> Metz
                     </div>
                     <div class="question_formulaire">En 1998 qu'à t-il fait comme exploit ?<br>
-                        <input type="radio" name="réponse_formulaire4"> Traire sa première vache
-                        <input type="radio" name="réponse_formulaire4"> Dragué à une prostitué
-                        <input type="radio" name="réponse_formulaire4"> Sérré la main à Jean De La Fontaine
-                        <input type="radio" name="réponse_formulaire4"> Ecrit son premier poème " La vache nommée Marguerite"
+                        <label for="answer_4"></label>
+                        <input type="radio" name="answer_4"> Traire sa première vache
+                        <input type="radio" name="answer_4"> Dragué à une prostitué
+                        <input type="radio" name="answer_4"> Sérré la main à Jean De La Fontaine
+                        <input type="radio" name="answer_4"> Ecrit son premier poème " La vache nommée Marguerite"
                     </div>
                     <div class="question_formulaire">Quel est le nom de Eric ?<br>
-                        <input type="radio" name="réponse_formulaire5"> Hochet
-                        <input type="radio" name="réponse_formulaire5"> Hockel
-                        <input type="radio" name="réponse_formulaire5"> Hocret
-                        <input type="radio" name="réponse_formulaire5"> Lavinass
+                        <label for="answer_5"></label>
+                        <input type="radio" name="answer_5"> Hochet
+                        <input type="radio" name="answer_5"> Hockel
+                        <input type="radio" name="answer_5"> Hocret
+                        <input type="radio" name="answer_5"> Lavinass
                     </div>
 
                     <div id="bouton_formulaire">
                         <input id="button_submit" type="submit" name="submit_button" value="Envoyer">
                     </div>
                 </form>
+                <?php if(isset($error)) echo '<p style="color:red;text-align:center;">' . $error ?>
             </div>
 
         </main>
